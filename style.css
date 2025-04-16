@@ -4,7 +4,9 @@ padding: 0;
 box-sizing: border-box
 }
 
-
+body{
+    background-color: rgb(241, 240, 240);
+}
 
 header{ 
     align-items: center;
@@ -22,14 +24,32 @@ img{
     display: flex;
     gap: 20px;
     margin-left: 26px;
+    margin-top: 15px;
     
 }
-
 
 a{
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+
+.kit-oversized{
+width: 200px;
+margin: 50px;
+}
+
+.sessao_kit_basico{
+display: flex;
+flex-direction: row;
+height: 100vh;
+margin-top: -150px ;
+margin-right: -50px;
+
+}
+
+.sessao_kit_basico > h2 {
+
 }
 
 
