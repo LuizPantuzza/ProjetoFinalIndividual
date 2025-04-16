@@ -4,9 +4,32 @@ padding: 0;
 box-sizing: border-box
 }
 
-header{
-    display: flex;
 
+
+header{ 
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 170px;
+    margin: -20px;
+}
+ 
+.menu{
+    display: flex;
+    gap: 20px;
+    margin-left: 26px;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 
